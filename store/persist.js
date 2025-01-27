@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import { createJSONStorage, persist } from "zustand/middleware";
 
 const usePersistStore = create(
   persist(
@@ -10,7 +10,7 @@ const usePersistStore = create(
     }),
     {
       name: "persist-data",
-      getStorage: () => localStorage,
+      storage: createJSONStorage(() => localStorage),
     }
   )
 );
