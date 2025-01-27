@@ -27,7 +27,7 @@ export default async function RootLayout({ children, params }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <main>{children}</main>
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
