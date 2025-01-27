@@ -4,7 +4,8 @@
       "step2": "Dilə uyğun səhifələri göstərmək üçün {file} faylında uyğun routerları əlavə edin.",
       "step3": "{layout} faylında tərcümə ediləcək kontenti {provider} ilə əhatə edirik. (Əlavə edilib)",
       "step4": "Tərcümə fayllarındaki mətnləri istifadə etmək üçün komponentlərinizdə və ya səhifələrinizdə {hook} funksiyasından istifadə edin.",
-      "step5": "Fayllarınızı yadda saxlayın və URL-də dilləri dəyişərək (məsələn, {url1}, {url2}) test edin."
+      "step5": "Fayllarınızı yadda saxlayın və URL-də dilləri dəyişərək (məsələn, {url1}, {url2}) test edin.",
+      "step6": "Yeni state əlavə etmək istəyirsinizsə {file} qovluğundaki nümunələrə baxa bilərsiniz!"
     },
     "Placeholders": {
       "folder": "messages/",

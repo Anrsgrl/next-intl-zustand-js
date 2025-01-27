@@ -4,7 +4,8 @@
       "step2": "Add compatible routers in the {file} file to display pages that match the language.",
       "step3": "Wrap your application with {provider} in {layout}. This provides translation context to your app. (Already added)",
       "step4": "Use the {hook} hook in your components or pages to access localized strings.",
-      "step5": "Save your files and test by switching between languages in the URL (e.g., {url1}, {url2})."
+      "step5": "Save your files and test by switching between languages in the URL (e.g., {url1}, {url2}).",
+      "step6": "If you want to add a new state, you can add new states by looking at the examples in the {file} folder!"
     },
     "Placeholders": {
       "folder": "messages/",
