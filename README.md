@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png" alt="" height="48" width="48" />
+  <p></p>
+<img src="https://locize.com/blog/what-is-i18n/i18next-logo.png" alt="" height="48"  />
+<img src="https://styles.redditmedia.com/t5_85e8ix/styles/communityIcon_6taxsprcbjra1.png" alt="" height="48"  />
+<img src="https://img.icons8.com/color/512/javascript.png" alt="" height="48" width="48"  />
+</div>
+<div align="center">
+<img src="https://img.shields.io/badge/Next.js-15.1.6-blue" alt="" />
+<img src="https://img.shields.io/badge/Next_intl-3.26.3-blue" alt="" />
+<img src="https://img.shields.io/badge/React-19.0.0-blue" alt="" />
+<img src="https://img.shields.io/badge/Zustand-5.0.3-blue" alt="" />
+</div>
 
-## Getting Started
+## Next.js + next-intl + zustand + js Template
 
-First, run the development server:
+This is a simple template to get you started with **Next.js** and **next-intl** for internationalization. It's perfect for building multi-language websites with ease. 
+
+## TypeScript Version
+If you are looking for a TypeScript version of this template, please check out the repository below:
+
+[Next.js + next-intl + zustand + TypeScript](https://github.com/Anrsgrl/next-intl-zustand-ts)
+
+## Get Started
+
+#### 1. Use the Template
+You can use this template to create a new repository quickly by clicking the **Use Template** button above.
+
+#### 2. Clone the Repository
+
+Alternatively, you can clone the repository directly using the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Anrsgrl/next-intl-zustand-js
+```
+After cloning, navigate to the project directory:
+```bash
+cd next-intl-zustand-js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 3. Install Dependencies
+Run the following command to install the required dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### 4. Run the Development Server
+Start the Next.js development server with:
+```bash
+pnpm dev
+```
+Your app should now be running on http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Multi-language Support
+This template supports multi-language setups out of the box using the next-intl package. You can easily add new languages by editing the `messages` folder. Check the `Home page` for more info
 
-## Learn More
+## Store management Support
+This template supports store management setups out of the box using the zustand package. You can easily add new states by editing the `store` folder. Check the `Home page` for more info
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
+Feel free to open issues and submit pull requests if you'd like to contribute to this template!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For any inquiries, please contact me at mail@anarr.dev.
